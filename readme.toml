@@ -1,0 +1,28 @@
+[project]
+name = "doc-search"
+version = "0.1.0"
+description = "A python project for document searching with RAG architecture"
+authors = ["Vivek Bargat <bargatvivek@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+requires-python= ">=3.8"
+
+[tool-poetry]
+packages = [
+    { include = "server" }
+]
+
+[dependencies]
+mcp = "*"
+fastapi = "*"
+uvicorn = "*"
+langchain = "*"
+chromadb = "*"
+langchain-community = "*"
+pdfplumber = "*"
+pytesseract = "*"
+rapidocr-onnxruntime = "*"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

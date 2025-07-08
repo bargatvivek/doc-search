@@ -1,0 +1,9 @@
+mcp
+fastapi
+uvicorn
+langchain
+chromadb
+langchain-community
+pdfplumber
+pytesseract
+rapidocr-onnxruntime
