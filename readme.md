@@ -122,7 +122,7 @@ If no relevant local documents are found, the system can perform a web search us
 ### 2. Clone the Repo
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/bargatvivek/doc-search.git
 cd doc-search
 ```
 
